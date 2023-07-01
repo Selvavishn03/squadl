@@ -1,8 +1,56 @@
 .comp1{
-    background: #000A1F;
     min-height: 100vh;
+    background: url(../assets/images/Vector1.png) no-repeat #000A1F;
+    background-position: center bottom;
+    background-size: 100% 50vh;
+    background-blend-mode: multiply;
+
 
     &>div{
-        width: 80%;
+        width: 68%;
+        flex-grow: 1;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .menu{
+        width: 20px;
+    }
+
+    .nav{
+        color: #fff;
+
+        div{
+            cursor: pointer;
+        }
+
+        >div:nth-child(1){
+            text-decoration: underline;
+        }
+    }
+
+    .content{
+        .foreground{
+            width: 85%;
+            margin-right: -100px;
+        }
+
+        .bulb{
+            width: 180px;
+            right: 0;
+            top: 10%;
+        }
+    }
+
+    .bottom-content{
+        .top{
+            border-bottom: 1px solid gray;
+            span{
+                opacity: 0.6;
+                font-size: 13px;
+            }
+        }
     }
 }
