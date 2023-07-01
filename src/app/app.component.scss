@@ -7,7 +7,7 @@ main {
   // background-blend-mode: multiply;
 
   .comp1 {
-    min-height: 100vh;
+    // min-height: 100vh;
 
     &>div {
       width: 70%;
@@ -36,7 +36,7 @@ main {
 
     .content {
       .foreground {
-        width: 85%;
+        width: 80%;
         margin-right: -100px;
       }
 
