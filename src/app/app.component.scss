@@ -65,22 +65,56 @@ main {
       flex-grow: 1;
     }
 
-    .content {
+    .content1 {
       .left {
+        margin-top: -30px;
 
         img {
           width: 70%;
+          min-width: 300px;
+        }
+      }
+
+      .right {
+        img {
+          width: 60px;
+          height: 40px;
+        }
+
+        p {
+          font-size: 12px;
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .content2{
+      .left{
+        p{
+          font-size: 13px;
+          opacity: 0.6;
+        }
+
+        button{
+          width: fit-content;
+          border: none;
+          background: #292738;
+          font-size: 12px;
+          border-radius: 4px;
+
+          img{
+            width: 20px;
+          }
         }
       }
 
       .right{
+        margin-top: -30px;
+        margin-right: -50px;
         img{
-            width: 60px;
-            height: 45px;
-        }
-        p{
-            font-size: 12px;
-            opacity: 0.5;
+          width: 100%;
+          min-width: 300px;
+          max-width: 400px;
         }
       }
     }
