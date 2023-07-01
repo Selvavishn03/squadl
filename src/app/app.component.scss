@@ -46,7 +46,7 @@ main {
         top: 10%;
       }
 
-      p{
+      p {
         opacity: 0.7;
         font-size: 13px;
       }
@@ -62,7 +62,7 @@ main {
         }
       }
 
-      img{
+      img {
         height: 90px;
       }
     }
@@ -97,34 +97,88 @@ main {
       }
     }
 
-    .content2{
-      .left{
-        p{
+    .content2 {
+      .left {
+        p {
           font-size: 13px;
           opacity: 0.6;
         }
 
-        button{
+        button {
           width: fit-content;
           border: none;
           background: #292738;
           font-size: 12px;
           border-radius: 4px;
 
-          img{
+          img {
             width: 20px;
           }
         }
       }
 
-      .right{
+      .right {
         margin-top: -30px;
+
         // margin-right: -100px;
-        img{
+        img {
           width: 100%;
           min-width: 300px;
           max-width: 400px;
         }
+      }
+    }
+
+    .content3 {
+      .left {
+        img {
+          min-width: 300px;
+          max-width: 450px;
+        }
+      }
+
+      .right{
+
+        button {
+          width: fit-content;
+          border: none;
+          background: #292738;
+          font-size: 12px;
+          border-radius: 4px;
+          text-align: left;
+          margin-bottom: 25px;
+
+          p{
+            font-size: 12px;
+            opacity: 0.5;
+            line-height: 18px;
+          }
+
+          .tick {
+            width: 40px;
+          }
+
+          .arrow{
+            width: 50px;
+          }
+        }
+
+        >button:nth-child(2){
+          margin-left: 35px;
+        }
+
+        >button:nth-child(3){
+          margin-left: 70px;
+        }
+
+        >button:nth-child(4){
+          margin-left: -30px;
+        }
+
+        >button:nth-child(5){
+          margin-left: -150px;
+        }
+        
       }
     }
 
