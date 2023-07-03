@@ -12,4 +12,4 @@ install node modules using'npm install' command
 step5:
 run the project in terminal using 'ng serve' command
 step6:
-open your browser on http://localhost:4200
+open your browser using localhost link in terminal
